@@ -1,0 +1,7 @@
+<?php
+if($action == "save") 
+{
+    $targetFolder = "D:/HTML_storage/BenhVienWebsite";
+    file_put_contents($targetFolder."mytext.txt", $myText);
+}
+?>

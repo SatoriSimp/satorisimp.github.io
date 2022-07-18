@@ -1,0 +1,373 @@
+/* Place your CSS styles in this file */
+
+html {
+    background-image: url("hina-faded.png");
+    background-size:cover;
+}
+
+p {
+    color: #E8E6E3;
+    padding-top: 1px;
+}
+
+li {
+    color: #E8E6E3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+mob-changes {
+    font-size: 14px;
+}
+
+mob-changes2 {
+    font-size: 13px;
+}
+
+emp1 {
+    color:red;
+    font-style: italic;
+}
+
+emp2 {
+    color:cyan;
+    font-style: italic;
+}
+
+emp3 {
+    color: rgb(185, 23, 185);
+    font-style: italic;
+}
+
+.button {
+    background-color: #181A1B;
+    color: #E8E6E3;
+    text-align: center;
+}
+
+.green-button {
+    border-radius: 5px;
+    background-color: #4CAF50;
+    border: none;
+    color:white;
+    padding: 25px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 6px 4px;
+    cursor: pointer;
+}
+
+.pur-button {
+    border-radius: 5px;
+    background-color: rgb(143, 54, 184);
+    border: none;
+    color: white;
+    padding: 25px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 6px 4px;
+    cursor: pointer;
+}
+
+.toho-button {
+    border-radius: 5px;
+    background-color: rgb(252, 86, 86);
+    border: none;
+    color: rgb(243, 243, 243);
+    padding: 12px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 6px 4px;
+    cursor: pointer;
+}
+
+.toho-button2 {
+    border-radius: 5px;
+    background-color: rgb(247, 90, 213);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 6px 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.yt-button {
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 6px 4px;
+    cursor: pointer;
+    top:50%;
+    left:2%;
+    margin-right: 2%;
+}
+
+#mid {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orangered;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 50px;
+    border: red;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+}
+
+#center-text {
+    text-align: center;
+}
+
+#drive {
+    content:url("drive.png");
+    display:inline-block;
+    width: 40px;
+    height: 30px;
+}
+
+#github {
+    content:url("icon-github.png");
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+#yinyang {
+    content:url("yinyang.png");
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+#yuyuko {
+    content:url("yuyuko.apng");
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+#yt {
+    content:url("yt.png");
+    display:inline-block;
+    width: 30x;
+    height: 30px;
+}
+
+#thmusic {
+    content:url("touhou-music.gif");
+    display:inline-block;
+    width: 30x;
+    height: 30px;
+}
+
+.center-text {
+    transform: translateY(-40%);
+    text-align: center;
+    position: relative;
+    padding-top: 25%;
+    bottom: 8px
+}
+
+.center-text:active {
+    padding-top: 25px;
+}
+
+.black-border {
+    border: double 10px rgb(110, 29, 29);
+    background-image: url("red-bg.jpg");
+    display: inline;
+    padding: 20px;
+    font-weight: normal;
+    height: 50px;
+}
+
+.touhou-border {
+    display: inline-block;
+    position: relative;
+    border: 10px solid transparent;
+    border-radius: 25px;
+    border-image: url("butterfly.png") 55 round;
+    background-image: url("cemetary.png");
+    background-size:contain;
+    margin:2.8%;
+    padding: 15px;
+    height:fit-content;
+    width: 41%;
+}
+
+.a9-border {
+    display: inline-block;
+    position: relative;
+    border-radius: 25px;
+    border: 10px solid transparent;
+    border-image: url("bord-neon.jpg") 10 stretch;
+    background-image: url("rhode.jpg");
+    background-size:cover;
+    background-position: center;
+    margin:2.8%;
+    padding: 15px;
+    height:fit-content;
+    width: 41%;
+}
+
+#bd-border {
+    display: inline-block;
+    position: relative;
+    border-radius: 25px;
+    border: 10px solid transparent;
+    border-image: url("bd-border.png") 50 stretch;
+    background-image: url("blindass.png");
+    background-size:cover;
+    background-position: center;
+    margin:2.8%;
+    padding: 15px;
+    height:fit-content;
+    width: 41%;
+    display: inline-block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: normal;
+    line-break: strict;
+    hyphens: none;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    white-space: normal;
+    overflow: hidden;
+}
+
+#pv-border {
+    display: inline-block;
+    position: relative;
+    border-radius: 25px;
+    border: 10px solid transparent;
+    border-image: url("bd-border.png") 50 stretch;
+    background-image: url("nerd.jpg");
+    background-size:cover;
+    background-position: center;
+    margin:2.8%;
+    padding: 15px;
+    height:fit-content;
+    width: 41%;
+    display: inline-block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: normal;
+    line-break: strict;
+    hyphens: none;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.link-in-line {
+    flex-direction: row;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+.stand-border {
+    position: relative;
+    border-radius: 25px;
+    border: 10px solid transparent;
+    border-image: url("bord.jpg") 30 round;
+    height: fit-content;
+    background-image: url("dg.jpg");
+    font-weight: normal;
+    margin: 3%;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-decoration: wavy;
+    text-rendering: auto;
+    text-align: left;
+}
+
+.vertical-center {
+    display:block;
+    margin: 0 auto;
+    left: 27%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
